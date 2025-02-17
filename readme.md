@@ -7,3 +7,11 @@
 ## Projektfelelős: 
  - Kalla Dzsínó Alex
 
+## Használt alkalmazások:
+ - Figma
+ - Trello
+ - Github
+
+## Források:
+ - Pixabay
+ - Flaticon
