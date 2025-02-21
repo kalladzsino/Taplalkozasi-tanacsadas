@@ -6,4 +6,3 @@
 
 ## Projektfelelős: 
  - Kalla Dzsínó Alex
-
