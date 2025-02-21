@@ -10,5 +10,5 @@
 ## Használt alkalmazások:
  - Figma (UI/UX)
  - Trello (munkakiosztás)
- - ChatGPT (szövegek)
+ - ChatGPT (szövegek, képek generálása)
  - Canva (képszerkesztés)
