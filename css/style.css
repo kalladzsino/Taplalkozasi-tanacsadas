@@ -194,7 +194,7 @@ p{
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(220, 68%, 54%);
+  --first-color: #809D3C;
   --first-color-lighten: hsl(220, 68%, 97%);
   --title-color: #809D3C;
   --text-color: hsl(220, 12%, 45%);
@@ -372,14 +372,14 @@ a {
   transition: height 0.4s;
 }
 .dropdown__content {
-  row-gap: 1.75rem;
+  row-gap: 0.5rem;
 }
 .dropdown__group {
-  padding-left: 2.5rem;
+  padding-left: 0.5rem;
   row-gap: 0.5rem;
 }
 .dropdown__group:first-child {
-  margin-top: 1.25rem;
+  margin-top: 0.25rem;
 }
 .dropdown__group:last-child {
   margin-bottom: 1.25rem;
@@ -413,13 +413,13 @@ a {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 100px) {
   .dropdown__group {
     padding-left: 1.5rem;
   }
 }
 /* For large devices */
-@media screen and (min-width: 1118px) {
+@media screen and (min-width: 100px) {
   /* Nav */
   .nav {
     height: calc(var(--header-height) + 2rem);
@@ -462,7 +462,7 @@ a {
   }
   .dropdown__content {
     grid-template-columns: repeat(4, max-content);
-    column-gap: 6rem;
+    column-gap: 1rem;
     max-width: 1120px;
     margin-inline: auto;
   }
@@ -515,4 +515,8 @@ a {
   .container {
     margin-inline: auto;
   }
+}
+
+.zold{
+  color: #809D3C;
 }
