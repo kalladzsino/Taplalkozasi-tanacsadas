@@ -93,7 +93,7 @@
     vertical-align: middle;
   }
   
-  .footer-distributed .footer-center i.fa-envelope{
+  .footer-distributed .footer-center {
     font-size: 17px;
     line-height: 38px;
   }
@@ -190,10 +190,3 @@ p{
     color: #4E96CC;
 }
 
-.icon-a{
-    color:bisque;
-}
-
-i{
-    background-color: yellow;
-}
