@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lexend:wght@100..900&display=swap');
 
-.container-fluid{
-  margin-top: 90px;
+ 
+.indexszoveg{
+  text-shadow: #33383b 1px 1px 1px;
+  
+
 }
 .indexhatter{
   background-image: url('../img/trello-bg.jpg');
   height: 1080px;
   width: auto;
+  background-repeat: no-repeat;
+  
 }
 
-.indexszoveg{
-  font-size: 10px;
-  padding-left: 21px;
-}
+
 
 .footerul{
     list-style: none;
@@ -264,7 +266,7 @@ a {
 
 /*=============== HEADER ===============*/
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
