@@ -189,19 +189,23 @@ p{
     color: #4E96CC;
 }
 
+.zold{
+  color: #809D3C;
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: #809D3C;
-  --first-color-lighten: hsl(220, 68%, 97%);
+  --first-color-lighten: #809D3C;
   --title-color: #809D3C;
   --text-color: hsl(220, 12%, 45%);
   --body-color: hsl(220, 100%, 99%);
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Lexend", sans-serif;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
@@ -228,7 +232,7 @@ p{
 }
 
 body {
-  font-family: "Lexend";
+  font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
@@ -244,7 +248,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin-inline: 1.5rem;
 }
 
@@ -254,7 +258,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 2px 8px hsla(220, 68%, 12%, 0.1);
+  box-shadow: 0 2px 8px hsla(220, 80%, 12%, 0.29);
   background-color: var(--body-color);
   z-index: var(--z-fixed);
 }
@@ -372,14 +376,14 @@ a {
   transition: height 0.4s;
 }
 .dropdown__content {
-  row-gap: 0.5rem;
+  row-gap: 1.75rem;
 }
 .dropdown__group {
-  padding-left: 0.5rem;
+  padding-left: 2.5rem;
   row-gap: 0.5rem;
 }
 .dropdown__group:first-child {
-  margin-top: 0.25rem;
+  margin-top: 1.25rem;
 }
 .dropdown__group:last-child {
   margin-bottom: 1.25rem;
@@ -413,13 +417,13 @@ a {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 300px) {
   .dropdown__group {
     padding-left: 1.5rem;
   }
 }
 /* For large devices */
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 1118px) {
   /* Nav */
   .nav {
     height: calc(var(--header-height) + 2rem);
@@ -462,7 +466,7 @@ a {
   }
   .dropdown__content {
     grid-template-columns: repeat(4, max-content);
-    column-gap: 1rem;
+    column-gap: 6rem;
     max-width: 1120px;
     margin-inline: auto;
   }
@@ -517,6 +521,6 @@ a {
   }
 }
 
-.zold{
+i{
   color: #809D3C;
 }
