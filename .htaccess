@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^article_detail/([a-zA-Z0-9_-]+)/([0-9]+)\.html$ article_detail.php?article_det=$2
+Options +FollowSymLinks
+ErrorDocument 404 errorpage/index.html
