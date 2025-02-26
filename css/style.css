@@ -924,7 +924,7 @@ a {
 }
 
 .explore {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   color: rgb(102, 102, 102);
   border-top-width: 2px;
@@ -944,7 +944,7 @@ a {
   border-image-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
-  cursor: pointer;
+
   background-color: white;
   margin-top: 0px;
   margin-right: 0px;
