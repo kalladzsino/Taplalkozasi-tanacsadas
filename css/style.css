@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lexend:wght@100..900&display=swap');
 
  
+#nav-toggle{
+  position: absolute;
+  right: 1rem;
+}
 .indexszoveg{
   text-shadow: #33383b 1px 1px 1px;
   
@@ -8,13 +12,64 @@
 }
 .indexhatter{
   background-image: url('../img/home-bg\(dark\).png');
-  height: 1080px;
-  width: auto;
-  background-repeat: no-repeat;
+
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   
 }
 
 
+/* MENO ANIMACIOS ALAHUZAS */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  top: 22px;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+
+.hover-underline-animation.left::after {
+  transform-origin: bottom right;
+}
+
+.hover-underline-animation.left:hover::after {
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation.center::after {
+  transform-origin: bottom center;
+}
+
+.hover-underline-animation.center:hover::after {
+  transform-origin: bottom center;
+}
+
+.hover-underline-animation.right::after {
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation.right:hover::after {
+  transform-origin: bottom right;
+}
+
+/* MENO ANIMACIOS ALAHUZAS VEGE ↑↑↑↑↑ */
 
 .footerul{
     list-style: none;
@@ -300,6 +355,7 @@ a {
   color: var(--first-color);
 }
 .nav__toggle {
+  
   position: relative;
   width: 32px;
   height: 32px;
@@ -324,7 +380,7 @@ a {
     left: 0;
     top: 2.5rem;
     width: 100%;
-    height: calc(100vh - 3.5rem);
+    height: 375px;
     overflow: auto;
     padding-block: 1.5rem 4rem;
     pointer-events: none;
