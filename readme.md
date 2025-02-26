@@ -7,8 +7,9 @@
 ## Projektfelelős: 
  - Kalla Dzsínó Alex
 
-## Használt alkalmazások:
+## Használt webalkalmazások:
  - Figma (UI/UX)
  - Trello (munkakiosztás)
  - ChatGPT (szövegek, képek generálása)
  - Canva (képszerkesztés)
+ - Pixabay (képek)
