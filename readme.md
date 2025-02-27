@@ -16,6 +16,6 @@
 
 ## Kép források:
  - Pixabay
- - [Egészséges táplálkozás piramis](http://eper-iz.hupont.hu/2/egeszseges-taplalkozas)
+ - [Egészséges táplálkozás - Piramis](http://eper-iz.hupont.hu/2/egeszseges-taplalkozas)
 
 ##### © 2025 - Minden jog fenntartva!
