@@ -8,9 +8,8 @@
 .indexszoveg{
   margin-top: 60px;
   text-shadow: #33383b 1px 1px 1px;
-  
-
 }
+
 .indexhatter{
   background-image: url('../img/home-bg\(dark\).png');
 
@@ -22,6 +21,25 @@
   
 }
 
+.szolgszoveg{
+  margin-top: 200px;
+  text-shadow: #33383b 1px 1px 1px;
+}
+
+#terkoz{
+  margin-top: 20px;
+}
+
+.szolghatter{
+  background-image: url('../img/home-bg\(dark\).png');
+
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
 
 /* MENO ANIMACIOS ALAHUZAS */
 .hover-underline-animation {
@@ -1398,3 +1416,4 @@ a {
     border-radius: 150px;
   }
 }
+
