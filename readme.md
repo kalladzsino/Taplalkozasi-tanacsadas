@@ -14,5 +14,8 @@
  - Canva (képszerkesztés)
  - Pixabay (képek)
 
+## Kép források:
+ - Pixabay
+ - [Egészséges táplálkozás piramis](http://eper-iz.hupont.hu/2/egeszseges-taplalkozas)
 
-### © 2025 - Minden jog fenntartva!
+##### © 2025 - Minden jog fenntartva!
