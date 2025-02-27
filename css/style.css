@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lexend:wght@100..900&display=swap');
 
-
-.rolamlista{
+.taplalkozasszoveg{
+  text-shadow: #33383b 1px 1px 1px;
+}
+.taplalkozaslista{
   list-style-type: disc;
 }
 
-.rolamcim{
+.taplalkozascim{
   color: #809D3C;
 }
 
@@ -19,10 +21,9 @@
   text-shadow: #33383b 1px 1px 1px;
 }
 
-.rolamhatter{
+.taplalkozashatter{
   background-image: url('../img/alma-bg.jpg');
-
-    min-height: 700px;
+    min-height: 900px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
