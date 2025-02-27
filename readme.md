@@ -12,7 +12,6 @@
  - Trello (munkakiosztás)
  - ChatGPT (szövegek, címek, képek generálása)
  - Canva (képszerkesztés)
- - Pixabay (képek)
 
 ## Kép források:
  - Pixabay
