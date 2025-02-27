@@ -11,7 +11,7 @@
  - Figma (UI/UX design)
  - Trello (munkakiosztás)
  - ChatGPT (szövegek, címek, képek generálása)
- - Canva (képszerkesztés)
+ - Canva (képszerkesztés) 
 
 ## Kép források:
  - Pixabay
