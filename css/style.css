@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lexend:wght@100..900&display=swap');
 
- 
+
+.rolamlista{
+  list-style-type: disc;
+}
+
+.rolamcim{
+  color: #809D3C;
+}
+
+
 #nav-toggle{
   position: absolute;
   right: 1rem;
@@ -10,6 +19,15 @@
   text-shadow: #33383b 1px 1px 1px;
 }
 
+.rolamhatter{
+  background-image: url('../img/alma-bg.jpg');
+
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .indexhatter{
   background-image: url('../img/home-bg\(dark\).png');
 
@@ -48,12 +66,11 @@
 }
 
 .hover-underline-animation::after {
-  top: 22px;
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 2px;  
   bottom: 0;
   left: 0;
   background-color: #FFF;
