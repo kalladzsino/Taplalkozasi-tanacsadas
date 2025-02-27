@@ -10,7 +10,7 @@
 ## Használt webalkalmazások:
  - Figma (UI/UX design)
  - Trello (munkakiosztás)
- - ChatGPT (szövegek, képek generálása)
+ - ChatGPT (szövegek, címek, képek generálása)
  - Canva (képszerkesztés)
  - Pixabay (képek)
 
