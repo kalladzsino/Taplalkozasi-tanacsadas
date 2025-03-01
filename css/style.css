@@ -3,6 +3,19 @@
 
 
 .edzeskep{
+  width: 320px;
+  margin-left: 130px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.edzeshatter{
+  background-image: url('../img/gym-bg.png');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 .taplalkozasszoveg{
   text-shadow: #33383b 1px 1px 1px;
