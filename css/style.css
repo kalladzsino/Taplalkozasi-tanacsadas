@@ -17,6 +17,15 @@
     background-size: cover;
     color: white;
 }
+.mentalishatter{
+  background-image: url('../img/mental.png');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
 .taplalkozasszoveg{
   text-shadow: #33383b 1px 1px 1px;
 }
